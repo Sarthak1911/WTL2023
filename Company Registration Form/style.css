@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+body{
+    background:  url('https://cdn.statically.io/img/codetheweb.blog/assets/img/posts/css-advanced-background-images/cover.jpg?f=webp&w=1440');
+    background-size:100%;
+    background-position: 0px -150px;
+}
+div.main{
+    width: 400px;
+    margin: 60px auto 0px auto;
+    color: white;
+    font-family: sans-serif;
+}
+h2{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+}
+div.register{
+    background-color: rgba(0, 0, 0, 0.5);
+    width : 100%;
+    font-size: 15px;
+    border-radius: 15px;
+    border: 1px solid rgba(147, 147, 147, 0.3);
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+    
+}
+form#register{
+    margin: 40px;
+}
+label{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+input#name{
+    width: 300px;
+}
+input#name::placeholder{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+select{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* input[type=submit]
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} */
+input{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
